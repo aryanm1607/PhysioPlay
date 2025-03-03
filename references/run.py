@@ -1,4 +1,4 @@
-from back import FastAPI, File, UploadFile, HTTPException, Depends
+from fastapi import FastAPI, File, UploadFile, HTTPException, Depends
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List
