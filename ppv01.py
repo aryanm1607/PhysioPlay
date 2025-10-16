@@ -126,7 +126,7 @@ def get_patient_response():
 
 def get_chatgroq_response(user_input, is_introduction=False, is_diagnosis=False):
     """Generate response using the ChatGroq model."""
-    llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="llama3-8b-8192")
+    llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="openai/gpt-oss-20b")
 
     if is_introduction:
         prompt = ChatPromptTemplate.from_template("""
