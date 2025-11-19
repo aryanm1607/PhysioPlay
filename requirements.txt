@@ -1,8 +1,8 @@
 faiss-cpu
 streamlit
 langchain==0.1.12
-langchain-community==0.0.20
-langchain-core==0.1.53
+langchain-community
+langchain-core
 huggingface_hub
 pypdf
 langchain_groq
